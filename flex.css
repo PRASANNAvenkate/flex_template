@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.ispace {
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.ispace .nav {
+    background-color: white;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    margin: 20px;
+    letter-spacing: 3px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headline {
+    text-align: center;
+}
+
+.headline h1 {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.middle {
+    background-color: white;
+}
+
+.middle img {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.dots {
+    background-color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.flex-box1 {
+    display: flex;
+    background-color: white;
+}
+
+.flex-box1 div {
+    width: 33.333333333%;
+    background-color: white;
+    text-align: center;
+}
+
+.flex-box1 .first h1 {
+    background-color: greenyellow;
+    color: white;
+}
+
+.flex-box1 .second h1 {
+    background-color: greenyellow;
+    color: white;
+}
+
+.flex-box1 .third h1 {
+    background-color: greenyellow;
+    color: white;
+}
+
+.flex-box1 p {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+}
+
+.flex-box1 .first {
+    margin: 0px 30px;
+}
+
+.flex-box1 .second {
+    margin: 0px 30px;
+}
+
+.flex-box1 .third {
+    margin: 0px 30px;
+}
+
+.flex-box2 {
+    display: flex;
+    background-color: white;
+}
+
+.flex-box2 div {
+    text-align: center;
+    background-color: white;
+    width: 33.333333%;
+}
+
+.flex-box2 h4,
+ul,
+li {
+    background-color: white;
+}
+
+.flex-box2 .readmore {
+    background-color: bisque;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.footer,
+.footer .coll,
+.footer .coll-row {
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.footer div {
+    width: 50%;
+    background-color: white;
+    margin-top: 15px;
+    /* text-align: center; */
+}
+
+.footer .left {
+    width: 20%;
+    margin-left: 30px;
+    background-color: greenyellow;
+}
+
+.footer .right {
+    width: 80%;
+    margin-right: 30px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+.footer span {
+    color: greenyellow;
+    background-color: gray;
+}
+
+.footer .left h1 {
+    color: white;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.designby {
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
